@@ -44,5 +44,5 @@
 ## Credits
 
 Thanks to:
-- [`TheHamkerCat`](https://github.com/TheHamkerCat) for build up of this bot from scratch and ARQ api. :3
+- [`TheHamkerCat`](https://github.com/TheHamkerCat) for build up of this bot from scratch and ARQ api. 
 - [`delivrance`](https://github.com/delivrance) for pyrogram.
