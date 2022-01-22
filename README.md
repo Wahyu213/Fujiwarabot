@@ -24,6 +24,10 @@
 </p>
 
 
+<h1 align="center">
+    Deploy To Heroku
+</h1>
+
 <h1>
     <p align="center">
         <a href="https://heroku.com/deploy?template=https://github.com/Wahyu213/FujiwaraBot">
