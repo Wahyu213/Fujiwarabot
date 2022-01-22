@@ -38,7 +38,7 @@
     
 ## NOTE:
 
-  I'm making this note to whoever comes to see this repo. (I came through a lot to make this bot) - I would not say such dumb thing like this, the whole credits goes to [TheHamkerCat](https://github.com/TheHamkerCat). You might ask me what you did?, well i did some edits with my knowledge to make this bot like my own. I don't give a shit about any illegal problems if anyone comes with that GPLv3 license stuff. After all i came through a lot from many developers, No one ever told me/us anything not even a simple guide. So i will make this repo public so anyone can learn or get code from here for my future updates.
+  I'm making this note to whoever comes to see this repo. (I came through a lot to make this bot) - I would not say such dumb thing like this, the whole credits goes to [TheHamkerCat](https://github.com/TheHamkerCat). You might ask me what you did?, well i did some edits with my knowledge to make this bot like my own. I don't give a shit about any illegal problems if anyone comes with that MIT license stuff. After all i came through a lot from many developers, No one ever told me/us anything not even a simple guide. So i will make this repo public so anyone can learn or get code from here for my future updates.
 
 ## Bot stuff
 
