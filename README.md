@@ -16,8 +16,8 @@
     </a>
     <a href="https://GitHub.com/rozari0">
         <img src="http://ForTheBadge.com/images/badges/built-with-love.svg" alt="built-with-love">
-    </a> <br>
-    <img src="https://img.shields.io/github/license/Wahyu213/Fujiwarabot?style=for-the-badge&logo=appveyor" alt="LICENSE">
+    </a>
+    <br>
     <img src="https://img.shields.io/github/contributors/Wahyu213/Fujiwarabot?style=for-the-badge&logo=appveyor" alt="Contributors">
     <img src="https://img.shields.io/github/repo-size/Wahyu213/Fujiwarabot?style=for-the-badge&logo=appveyor" alt="Repository Size"> <br>
     <img src="https://img.shields.io/badge/python-3.9-green?style=for-the-badge&logo=appveyor" alt="Python Version">
