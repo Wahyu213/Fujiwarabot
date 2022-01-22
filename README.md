@@ -1,6 +1,10 @@
-<h1 align="center">
-     💮ChikaBot💮     
-</h1>
+<h2 align="center">
+    ──「𝐂𝐡𝐢𝐤𝐚 𝐅𝐮𝐣𝐢𝐰𝐚𝐫𝐚」──
+</h2>
+
+<p align="center">
+  <img src="https://telegra.ph/file/193b10ac0eefdc9316a8e.jpg">
+</p>
 
 <h3 align="center">
     Telegram Group Manager Bot Written In Python Using Pyrogram.
@@ -19,25 +23,7 @@
     <img src="https://img.shields.io/badge/python-3.9-green?style=for-the-badge&logo=appveyor" alt="Python Version">
 </p>
 
-<h3 align="center">
-    Ready to use method
-</h3>
-
-<p align="center">
-    A ready-to-use running instance of this bot can be found on Telegram <br>
-    <a href="https://t.me/ChikaProBot"> ChikaBot </a>
-</p>
-
-<h2 align="center">
-   ⇝ Requirements ⇜
-</h2>
-
-<p align="center">
-    <a href="https://www.python.org/downloads/release/python-390/"> Python3.9 </a> |
-    <a href="https://docs.pyrogram.org/intro/setup#api-keys"> Telegram API Key </a> |
-    <a href="https://t.me/botfather"> Telegram Bot Token </a> |
-    <a href="https://telegra.ph/How-To-get-Mongodb-URI-04-06"> MongoDB URI </a>
-</p>
+ ### can be found on Telegram [Chika](https://t.me/ChikaProBot)
 
 
 <h1>
