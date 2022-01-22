@@ -95,7 +95,7 @@ async def inline_help_func(__HELP__):
             title="Github Repo",
             description="Get Github Respository Of Bot.",
             input_message_content=InputTextMessageContent(
-                "https://github.com/rozari0/NezukoBot"
+                "https://github.com/Wahyu213/Fujiwarabot"
             ),
             thumb_url="https://github.githubassets.com/images/modules/logos_page/GitHub-Mark.png",
         ),
