@@ -107,7 +107,7 @@ home_keyboard_pm = InlineKeyboardMarkup(
                 text="Commands ❓", callback_data="bot_commands"
             ),
             InlineKeyboardButton(
-                text="Update",
+                text="Updates",
                 url="https://t.me/nbzoning",
             ),
         ],
@@ -141,7 +141,7 @@ keyboard = InlineKeyboardMarkup(
                 url=f"t.me/{BOT_USERNAME}?start=help",
             ),
             InlineKeyboardButton(
-                text="update",
+                text="updates",
                 url="https://t.me/nbzoning",
             ),
         ],
