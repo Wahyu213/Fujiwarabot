@@ -107,8 +107,8 @@ home_keyboard_pm = InlineKeyboardMarkup(
                 text="Commands ❓", callback_data="bot_commands"
             ),
             InlineKeyboardButton(
-                text="Repo 🛠",
-                url="https://github.com/Wahyu213/Fujiwarabot",
+                text="Update",
+                url="https://t.me/nbzoning",
             ),
         ],
         [
@@ -141,8 +141,8 @@ keyboard = InlineKeyboardMarkup(
                 url=f"t.me/{BOT_USERNAME}?start=help",
             ),
             InlineKeyboardButton(
-                text="Repo 🛠",
-                url="https://github.com/Wahyu213/Fujiwarabot",
+                text="update",
+                url="https://t.me/nbzoning",
             ),
         ],
         [
