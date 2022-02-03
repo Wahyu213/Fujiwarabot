@@ -8,46 +8,69 @@
 
 <h3 align="center">
     Telegram Group Manager Bot Written In Python Using Pyrogram.
-</h3>
-
-<p align="center">
-    <a href="https://python.org">
-        <img src="http://forthebadge.com/images/badges/made-with-python.svg" alt="made-with-python">
-    </a>
-    <a href="https://GitHub.com/rozari0">
-        <img src="http://ForTheBadge.com/images/badges/built-with-love.svg" alt="built-with-love">
-    </a>
-    <br>
-    <img src="https://img.shields.io/github/contributors/Wahyu213/Fujiwarabot?style=for-the-badge&logo=appveyor" alt="Contributors">
-    <img src="https://img.shields.io/github/repo-size/Wahyu213/Fujiwarabot?style=for-the-badge&logo=appveyor" alt="Repository Size"> <br>
-    <img src="https://img.shields.io/badge/python-3.9-green?style=for-the-badge&logo=appveyor" alt="Python Version">
-</p>
 
 
-<h3 align="center">
-    Deploy To Heroku
-</h1>
+# Chika Robot 
+[![Maintenance](https://img.shields.io/badge/Maintained%3F-yes-green.svg)](https://GitHub.com/Naereen/StrapDown.js/graphs/commit-activity) [![GPLv3 license](https://img.shields.io/badge/License-GPLv3-blue.svg)](https://perso.crans.org/besson/LICENSE.html) [![Open Source Love svg2](https://badges.frapsoft.com/os/v2/open-source.svg?v=103)](https://github.com/ellerbrock/open-source-badges/) [![PRs Welcome](https://img.shields.io/badge/PRs-welcome-brightgreen.svg?style=flat-square)](https://makeapullrequest.com) [![Updates channel!](https://img.shields.io/badge/Join%20Channel-Zoning-red)](https://t.me/nbzoning) [![Join Support!](https://img.shields.io/badge/Support%20Chat-Chika-red)](https://t.me/OkaeriUserbot)
 
-<h3>
-    <p align="center">
-        <a href="https://heroku.com/deploy?template=https://github.com/Wahyu213/FujiwaraBot">
-            <img src="https://www.herokucdn.com/deploy/button.svg" alt="Deploy">
-        </a>
-    </p>
 
-    
-## NOTE:
+A modular Telegram Python bot running on python3 with a sqlalchemy database and an entirely themed persona to make Chika suitable for Anime and Manga group chats. 
 
-  I'm making this note to whoever comes to see this repo. (I came through a lot to make this bot) - I would not say such dumb thing like this, the whole credits goes to [TheHamkerCat](https://github.com/TheHamkerCat). You might ask me what you did?, well i did some edits with my knowledge to make this bot like my own. I don't give a shit about any illegal problems if anyone comes with that MIT license stuff. After all i came through a lot from many developers, No one ever told me/us anything not even a simple guide. So i will make this repo public so anyone can learn or get code from here for my future updates.
+The Support group can be reached out to at [Chika Support](https://t.me/OkaeriUserbot), where you can ask for help about discover/request new features, report bugs, and stay in the loop whenever a new update is available. 
 
-## Bot stuff
+News channel as at [Chika Updates](https://t.me/nbzoning) 
 
-* Bot link : [Chika Fujiwara](https://t.me/ChikaProBot)
-* Bot Support chat : [Support](https://t.me/OkaeriUserbot)
-* Bot News/Updates : [update](https://t.me/nbzoning)    
 
-## Credits
+## Stats
+![Wahyu's Github stats](https://github-readme-stats.vercel.app/api?username=Wahyu213&show_icons=true&theme=tokyonight)
 
-Thanks to:
-- [`TheHamkerCat`](https://github.com/TheHamkerCat) for build up of this bot from scratch and ARQ api. 
-- [`delivrance`](https://github.com/delivrance) for pyrogram.
+ ## Credits
+ - [TheHamkerCat](https://github.com/TheHamkerCat)
+
+## How to setup/deploy.
+
+### Read these notes carefully before proceeding 
+ - Edit any mentions of @OkaeriUserbot to your own support chat. 
+ - Lastly, if you are found to run this repo without the code being open sourced or the repository link not mentioned in the bot, we will push a gban for you in our network because of being in violation of the license, you are free to be a dick and not respect the open source code (we do not mind) but we will not be having you around our chats.
+
+
+<details>
+  <summary>Steps to deploy on Heroku !! </summary>
+
+```
+Fill in all the details, Deploy!
+Now go to https://dashboard.heroku.com/apps/(app-name)/resources ( Replace (app-name) with your app name )
+REMEMBER: Turn on worker dyno (Don't worry It's free :D) & Webhook
+Now send the bot /start, If it doesn't respond go to https://dashboard.heroku.com/apps/(app-name)/settings and remove webhook and port.
+```
+ Deploy
+
+  [![Deploy](https://www.herokucdn.com/deploy/button.svg)](https://heroku.com/deploy?template=https://github.com/Wahyu213/Fujiwarabot.git)
+
+</details>  
+<details>
+  <summary>Steps to self Host!! </summary>
+
+  ## Setting up the bot (Read this before trying to use!):
+Please make sure to use python3.6, as I cannot guarantee everything will work as expected on older Python versions!
+This is because markdown parsing is done by iterating through a dict, which is ordered by default in 3.6.
+
+  ### Configuration
+
+There are two possible ways of configuring your bot: a config.py file, or ENV variables.
+
+The preferred version is to use a `config.py` file, as it makes it easier to see all your settings grouped together.
+This file should be placed in your `HseaRobot` folder, alongside the `__main__.py` file. 
+This is where your bot token will be loaded from, as well as your database URI (if you're using a database), and most of 
+your other settings.
+
+It is recommended to import sample_config and extend the Config class, as this will ensure your config contains all 
+defaults set in the sample_config, hence making it easier to upgrade.
+
+  ### Python dependencies
+
+ ```
+- Install the necessary Python dependencies by moving to the project directory and running:
+- `pip3 install -r requirements.txt`.
+- This will install all the necessary python packages.
+```
