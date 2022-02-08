@@ -123,9 +123,6 @@ home_keyboard_pm = InlineKeyboardMarkup(
             )
         ],
     ]
-  
-  GROUP_START_IMG = (
-    "CAACAgUAAx0CXrmguwACURBiAe8ZgPHmc23c0heiXFJz2p2kSgACkwADlTpAHoFbDN9_6QouIwQ"
 )
 
 home_text_pm = (
