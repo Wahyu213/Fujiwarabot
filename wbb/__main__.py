@@ -99,7 +99,6 @@ async def start_bot():
         task.cancel()
     print("[INFO]: Turned off!")
 
-
 home_keyboard_pm = InlineKeyboardMarkup(
     [
         [
@@ -124,6 +123,9 @@ home_keyboard_pm = InlineKeyboardMarkup(
             )
         ],
     ]
+  
+  GROUP_START_IMG = (
+    "CAACAgUAAx0CXrmguwACURBiAe8ZgPHmc23c0heiXFJz2p2kSgACkwADlTpAHoFbDN9_6QouIwQ"
 )
 
 home_text_pm = (
